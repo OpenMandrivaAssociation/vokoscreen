@@ -11,6 +11,7 @@ Url:            https://github.com/vkohaupt/vokoscreen
 # Download:       https://github.com/vkohaupt/vokoscreen/archive/%{version}.tar.gz
 Source0:        %{name}-master.zip
 Source1:	%{name}-master.zip
+BuildRequires:	make
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(alsa)
 BuildRequires:  ffmpeg-devel
